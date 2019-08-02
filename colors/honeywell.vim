@@ -11,6 +11,68 @@ endif
 
 let g:colors_name="honeywell"
 
+" Term Colors
+" Vim
+hi Normal   ctermfg=241   ctermbg=254
+hi ModeMsg  ctermfg=253   ctermbg=124
+" Cursor
+hi Cursor   ctermfg=124	    ctermbg=NONE    cterm=reverse
+"hi lCursor
+hi CursorLine	ctermfg=NONE  ctermbg=252
+hi CursorLineNr	ctermfg=124   cterm=NONE
+hi CursorColumn	ctermfg=NONE  ctermbg=253
+hi MatchParen	ctermfg=NONE  ctermbg=178
+" Diff
+"hi DiffAdd
+"hi DiffChange
+"hi DiffDelete
+"hi DiffText
+" Folds
+hi Folded	ctermfg=254	ctermbg=248
+hi FoldColumn	ctermfg=254	ctermbg=248
+" Searching
+hi Search	ctermfg=NONE	ctermbg=251
+hi IncSearch	ctermfg=NONE	ctermbg=251
+" Statusline
+hi StatusLine	ctermfg=253	ctermbg=244 cterm=NONE
+hi StatusLineNC ctermfg=253	ctermbg=238 cterm=NONE
+" Tabs
+hi TabLine	ctermfg=254	ctermbg=100
+hi Tablinefill	ctermfg=254	ctermbg=100
+hi TabLineSel	ctermfg=100	ctermbg=254
+" Misc
+hi ColorColumn	ctermfg=254	ctermbg=139
+hi Directory	ctermfg=67	ctermbg=NONE  cterm=NONE
+hi EndOfBuffer	ctermfg=144	ctermbg=NONE
+hi LineNr	ctermfg=251	ctermbg=NONE
+hi MoreMsg	ctermfg=144	ctermbg=NONE
+hi NonText	ctermfg=144	ctermbg=NONE
+hi SpecialKey	ctermfg=100	ctermbg=NONE
+hi Title	ctermfg=136	ctermbg=NONE  cterm=NONE
+hi VertSplit	ctermfg=254	ctermbg=249   cterm=reverse
+hi Visual	ctermfg=NONE   	ctermbg=217
+hi WarningMsg	ctermfg=126	ctermbg=NONE
+hi WildMenu	ctermfg=254	ctermbg=126 cterm=bold
+" Popup Menu
+"hi Pmenu
+"hi PmenuSel
+"hi PmenuSbar
+"hi PmenuThumb
+
+" Syntax
+hi Comment	ctermfg=246     ctermbg=NONE  cterm=NONE
+hi Constant	ctermfg=242	ctermbg=NONE  cterm=NONE
+hi Identifier	ctermfg=124	ctermbg=NONE  cterm=NONE
+hi PreProc	ctermfg=244	ctermbg=NONE  cterm=NONE
+hi Special	ctermfg=124	ctermbg=NONE  cterm=NONE
+hi Statement	ctermfg=240	ctermbg=NONE  cterm=NONE
+hi Type		ctermfg=244	ctermbg=NONE  cterm=NONE
+
+hi Underlined	ctermfg=NONE	ctermfg=NONE  cterm=underline
+hi Error	ctermfg=196	ctermbg=NONE
+hi Todo		ctermfg=124	ctermbg=NONE
+
+
 " GUI Colors
 " Vim
 hi Normal   guifg=#626262   guibg=#e4e4e4
