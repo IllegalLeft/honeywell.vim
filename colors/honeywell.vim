@@ -80,7 +80,7 @@ endfunction
 
 " Highlights
 call s:h("Normal",          { "fg": s:norm, "bg": s:bg})
-call s:h("Comment",         { "fg": s:fg_lighter})
+call s:h("Comment",         { "fg": s:bg_lighter})
 " Cursor
 call s:h("Cursor",          {"bg": s:dark_red, "fg": s:norm})
 call s:h("CursorLine",      {"bg": s:bg_light})
